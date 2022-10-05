@@ -13,8 +13,9 @@ public class GenerateRandomNumbers {
 			
 			try (FileWriter writer = new FileWriter("randomNumbers.txt");) {
 				
-				// Generate 1,000,000 random numbers
-				IntStream nbrStream = generateStream(1000000, 1, 2000000).sorted();
+				// Generate 1,000,000 sorted random numbers
+				GenerateRandomNumbers genRandomNum = new GenerateRandomNumbers();
+				IntStream nbrStream = genRandomNum.generateStream(100, 1, 2000000).sorted();
 				
 				// Create IntStream iterator
 				PrimitiveIterator.OfInt itr = nbrStream.iterator();
@@ -34,7 +35,7 @@ public class GenerateRandomNumbers {
 		
 	}
 	
-	private static IntStream generateStream(int size, int min, int max) {
+	private IntStream generateStream(int size, int min, int max) {
 		
 		Random random = new Random();
 		return random.ints(size, min, max).sorted();
