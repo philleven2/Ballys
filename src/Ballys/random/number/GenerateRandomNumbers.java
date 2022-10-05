@@ -15,7 +15,7 @@ public class GenerateRandomNumbers {
 				
 				// Generate 1,000,000 sorted random numbers
 				GenerateRandomNumbers genRandomNum = new GenerateRandomNumbers();
-				IntStream nbrStream = genRandomNum.generateStream(100, 1, 2000000).sorted();
+				IntStream nbrStream = genRandomNum.generateStream(1000000, 1, 2000000).sorted();
 				
 				// Create IntStream iterator
 				PrimitiveIterator.OfInt itr = nbrStream.iterator();
