@@ -15,7 +15,7 @@ Commit to Remote Git Repository from command line:
    d. git add src/Ballys/random/number/GenerateRandomNumbers.java
       git add ReadMe.txt
    
-   e. git commit -m "Re-factor GenerateRandomNumbers.java"
+   e. git commit -m "Re-factor"
    
    f. git push
 
