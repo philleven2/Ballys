@@ -8,7 +8,6 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.PrimitiveIterator;
 import java.util.Random;
 import java.util.stream.IntStream;
@@ -82,9 +81,6 @@ public class GenerateRandomNumbers {
 			while ((line = br.readLine()) != null) {
 				aList.add(line);
 			}
-
-			// Sort ArrayList (even though it's already sorted)
-			Collections.sort(aList);
 
 			// Write to new file
 			Path output = Paths.get(fileName2);

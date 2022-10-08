@@ -3,6 +3,7 @@ Instructions:
 1. Generate 1,000,000 random numbers to a text file.
 2. Read the text file, sort the numbers, and write to a new text file.
 
+Git repo = https://github.com/philleven2/Ballys.git
 
 Commit to Remote Git Repository from command line:
 1. Open terminal 
