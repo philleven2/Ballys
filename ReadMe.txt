@@ -12,9 +12,10 @@ Commit to Remote Git Repository from command line:
 
    c. git pull
 
-   d. git add /Users/phil/Dev/Ballys/Ballys
+   d. git add src/Ballys/random/number/GenerateRandomNumbers.java
+      git add ReadMe.txt
    
-   e. git commit -m "<message>"
+   e. git commit -m "Re-factor GenerateRandomNumbers.java"
    
    f. git push
 

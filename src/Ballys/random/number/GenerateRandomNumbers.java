@@ -17,8 +17,8 @@ import java.util.stream.Stream;
 public class GenerateRandomNumbers {
 
 	/*
-	 * Generate 1,000,000 random numbers to a text file. Read and sort the text.
-	 * Write the sorted text to another file.
+	 * Generate 1,000,000 random numbers to a text file. Read the text file and sort the numbers.
+	 * Write the sorted numbers to another text file.
 	 * 
 	 * IMO it's more efficient to sort the IntStream when it's created. There is
 	 * really no need for a second text file.
